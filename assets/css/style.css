@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Yeseva One';
+    src: url(../fonts/YesevaOne-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Work Sans';
+    src: url(../fonts/WorkSans-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Work Sans';
+    src: url(../fonts/WorkSans-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Work Sans';
+    src: url(../fonts/WorkSans-Bold.ttf);
+    font-weight: 700;
+}
+/* -----------------
+Reset
+----------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* -----------------
+Global
+----------------- */
+:root {
+    --primary: #1F2B6C;
+    --secondary: #159EEC;
+    --accent: #BFD2F8;
+    --white: #FCFEFE;
+    --black: #212124;  
+}
+body {font-size: 16px;line-height: 1.4;font-family: 'Work Sans';}
+.txt-display1, .txt-display2 {font-family: 'Yeseva One';}
+.txt-display1 {font-size: 48px;}
+.txt-display2 {font-size: 32px;}
+/* small & button */
+.txt-small {font-size: 14px;}
+.txt-caption, .txt-body2 {font-size: 18px;}
+.txt-caption {letter-spacing: 2px;}
+.txt-title {font-weight: 500;font-size: 26px;}
+
+/* -----------------
+Main Content
+----------------- */
+
+
+/* -----------------
+Media
+----------------- */
