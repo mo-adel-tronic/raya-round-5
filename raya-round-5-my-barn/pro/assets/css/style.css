@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'Yeseva One';
+    src: url(../fonts/YesevaOne-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Work Sans';
+    src: url(../fonts/WorkSans-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Work Sans';
+    src: url(../fonts/WorkSans-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Work Sans';
+    src: url(../fonts/WorkSans-Bold.ttf);
+    font-weight: 700;
+}
+/* -----------------
+Reset
+----------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* -----------------
+Global
+----------------- */
+:root {
+    --primary: #1F2B6C;
+    --secondary: #159EEC;
+    --accent: #BFD2F8;
+    --white: #FCFEFE;
+    --black: #212124;  
+}
+body {font-size: 16px;line-height: 1.4;font-family: 'Work Sans';}
+.txt-display1, .txt-display2 {font-family: 'Yeseva One';}
+.txt-display1 {font-size: 48px;}
+.txt-display2 {font-size: 32px;}
+/* small & button */
+.txt-small {font-size: 14px;}
+.txt-caption, .txt-body2 {font-size: 18px;}
+.txt-caption {letter-spacing: 2px;}
+.txt-title {font-weight: 500;font-size: 26px;}
+
+/* -----------------
+Main Content
+----------------- */
+
+main{
+    height: 100vh;
+    
+}
+topbar{
+    height: fit-content;
+    display: flex;
+    background-color: var(--white);
+}
+#title{
+
+    color: var(--primary);
+}
+.s2{
+    color: var(--accent);
+}
+.container{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    
+}
+list{
+    
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+    margin-right: 43px;
+    margin-top: 3px;
+
+
+}
+li{
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+}
+.con{
+    display: flex;
+    flex-direction: column;
+}
+i{
+    margin-top: 10px;
+    position: relative;
+    right: 35px;
+    top: 20px;
+}
+a{
+    text-decoration: none;
+    color: var(--secondary);
+}
+/* -----------------
+Media
+----------------- */
+@media (max-width:755px) {
+    .container{
+        display: none;
+    }
+    topbar{
+        justify-content: center;
+    }
+    list{
+        gap:30px;
+        flex-wrap: wrap;
+    }
+    .hh{
+      margin-left: 19px;
+    }
+    
+}
